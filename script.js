@@ -45,6 +45,27 @@ const quotes = [
     {quote:`"Power comes in response to a need, not a desire. You have to create that need."`,
      person: `Son Goku`
     },
+    {quote:`"Life is like riding a bicycle. To keep your balance, you must keep moving."`,
+     person: `Albert Einstein`
+    },
+    {quote:`"Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma, which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."`,
+     person: `Steve Jobs`
+    },
+    {quote:`"In three words I can sum up everything I’ve learned about life: It goes on."`,
+     person: `Robert Frost`
+    },
+    {quote:`"Live a good and honorable life. Then, when you are older, you can look back and enjoy it a second time."`,
+     person: `Dalai Lama`
+    },
+    {quote:`"The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time."`,
+     person: `Mark Twain`
+    },
+    {quote:`"Small daily improvements over time lead to stunning results."`,
+     person: `Robin Sharma`
+    },
+    {quote:`"We must accept finite disappointment, but never lose infinite hope."`,
+     person: ` Martin Luther King, Jr.`
+    },
 ]
 
 btn.addEventListener('click', function(){
@@ -54,4 +75,3 @@ btn.addEventListener('click', function(){
     person.innerText = quotes[random].person;
 
 })
-
